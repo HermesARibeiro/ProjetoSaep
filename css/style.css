@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+
+    display: flex;
+    justify-content: left;
+    background-color: aqua;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#nav-header{
+    background-color: white;
+}
+
+ul{
+display: flex;
+justify-content: center;
+
+}
+
+#img_vesteTop{
+    position: relative;
+    top: 20px;
+    width: 30%;
+    padding-left: 15%;
+    
+}
+
+#cabecalho{
+    position: relative;
+    bottom: 15px;
+}
+
+main{
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    padding: 10px ; 
+    gap: 1.5em;
+    width: auto;
+    
+}
+
+
+
+.barra{
+position: absolute;
+bottom: 0%;
+display: flex;
+width: 100%;
+justify-content: space-between;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+}
+
+.div1{
+    position: relative;
+   
+}
+
+.Icons {
+    position: relative;
+    justify-content: flex-end;
+    cursor: pointer;
+    filter: invert(100%);
+    
+}
+
+
+.Icons img:hover{
+    filter: invert(100%);
+}
+
+
+#veste-white{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+
+
+
+
